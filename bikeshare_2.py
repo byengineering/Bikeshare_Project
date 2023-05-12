@@ -30,6 +30,7 @@ def get_filters():
     valid_day = False
     
     print('Hello! Let\'s explore some US bikeshare data!')
+        
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while not valid_city:
         city = input('\nPlease insert a valid city (Chicago, New York City, Washington)\n').lower().replace(' ','')
@@ -213,7 +214,7 @@ def raw_data(df):
             break
         elif raw == 'yes':
             print(df.iloc[i]) # TO DO: appropriately subset/slice your dataframe to display next five rows
-            raw = input('Display 5 adittional lines. Type: Yes/No.').lower() # TO DO: convert the user input to lower case using lower() function
+            raw = input('Display 5 aditional lines. Type: Yes/No.').lower() # TO DO: convert the user input to lower case using lower() function
             i += 5
         else:
             raw = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()    
