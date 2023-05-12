@@ -1,4 +1,4 @@
-#Welcome to my Bikeshare Project Readme!!
+#Welcome to my Bikeshare Project Readme!! 
 
 ### This project was first created at: 
 08/05/2023
@@ -19,6 +19,7 @@ In this project, the data of three major cities (Chicago, New York City and Wash
 Bikeshare_2.py 
 
 ### Credits
-Udacity Nanodegree "Programming for Data Science with Python"
-Python.org documentation
-Stackoverflow forum 
+* Udacity Nanodegree "Programming for Data Science with Python"
+* Udacity Knowledge Forum
+* Python.org documentation
+* Stackoverflow forum 
