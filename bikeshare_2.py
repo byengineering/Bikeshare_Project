@@ -11,6 +11,9 @@ months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['monday', 'tuesday', 'wednesday','thursday','friday','saturday','sunday']
 
 def pause():
+    """
+    Function to stop the execution of the program for visualising the analysis step by step.     
+    """
     programPause = input("Press the <ENTER> key to continue...")
 
 def get_filters():
